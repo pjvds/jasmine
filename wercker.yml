@@ -3,9 +3,6 @@ box: wercker/python
 build:
   # The steps that will be executed on build
   steps:
-    # A step that executes `pip install` command
-    - pip-install
-
     - script:
         name: Setup xvfb
         code: |
